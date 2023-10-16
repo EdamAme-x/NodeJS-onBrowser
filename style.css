@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Inter, system-ui, Segoe UI, Roboto, Helvetica Neue, sans-serif;
+  color: black;
+  background: white;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  text-align: center;
+}
+iframe,
+textarea {
+  border-radius: 3px;
+}
+
+iframe {
+  height: 20rem;
+  width: 100%;
+  border: solid 2px #ccc;
+}
+
+textarea {
+  width: 100vw;
+  height: 20rem;
+  background: black;
+  color: white;
+  resize: vertical;
+  padding: 0.35rem 0.75rem;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  font-family: Menlo, Cascadia Code, Consolas, Liberation Mono, monospace;
+}
+
+.config {
+}
